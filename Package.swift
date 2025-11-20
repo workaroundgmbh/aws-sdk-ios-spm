@@ -7,7 +7,7 @@ import struct Foundation.URL
 //
 // This value will be updated by the CI/CD pipeline and should not be
 // updated manually
-let latestVersion = "2.36.2"
+let latestVersion = "2.41.0"
 
 // Hosting url where the release artifacts are hosted.
 let hostingUrl = "https://releases.amplify.aws/aws-sdk-ios/"
@@ -26,12 +26,12 @@ let buildMode = BuildMode.remote
 // The checksum value will be updated by the CI/CD pipeline and should
 // not be updated manually
 let frameworksToChecksum = [
-    "AWSAuthCore": "deb4b25de04084089f348b5f6cc85937df5fdbb4ed15ef39c3316519472b4677",
-    "AWSCognitoIdentityProvider": "8c54529319686d0e8fe825377c08c6133bd0ab7c8fee652ae61cf163d4cebb1c",
-    "AWSCognitoIdentityProviderASF": "575ef535b9bbaff39c65c0e843cc390bacd302b448e9dfa94c1182054f1621f1",
-    "AWSCore": "1a428788e78af41b6e2b9e00b29feb9b6c2c73d9f291bb924efa89ad3db40dbf",
-    "AWSIoT": "37f044f4b4fa3a6c4c4849f724303e6a1feb37728ad0d235dce5cc00656aeef2",
-    "AWSMobileClientXCF": "396ff79d947699f3d6d46fd609a8a5d7b5703a7c4a9d449a351ddd07c7f50456",
+    "AWSAuthCore": "4a6cc38b908282dbadc534efa5e342babf0830a74f492486db66485e0d6a48eb",
+    "AWSCognitoIdentityProvider": "bedd65dca74dd4fdf649b9d29c31e74637f839c0f73e63999d30ca675973f792",
+    "AWSCognitoIdentityProviderASF": "1171b85fc49464118b8bca6c9cfb529805eb207f4efc63e1127370dba5d11a30",
+    "AWSCore": "8a42c3da7efdc47b7b7e40a3cac0f1c29bc7bd0020d630fc1bd31e29caffdb3c",
+    "AWSIoT": "e563b9e9c1bdefad41bfecaddd4bd1002cb26d7d5fe9fcf8931234fbdd9a2255",
+    "AWSMobileClientXCF": "f7c99e4d1047782648a1d84e43675b4452055a86cc19b3aa30dbcb0b61d64383",
 ]
 
 
